@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Student Attendance System** is a Python-based application that tracks student attendance using barcode scanning. It provides a graphical user interface (GUI) built with `customtkinter`, allowing users to view attendance records, mark attendance, and manage student data efficiently.
+The **Student Attendance System** is a Python-based application that tracks student attendance using QRcode scanning. It provides a graphical user interface (GUI) built with `customtkinter`, allowing users to view attendance records, mark attendance, and manage student data efficiently.
 
 ## Features
 
@@ -18,10 +18,12 @@ The **Student Attendance System** is a Python-based application that tracks stud
 
 Ensure you have the following installed:
 
-- Python 3.8 or later
+- Python 3.13 or later
 - SQLite (bundled with Python)
 
 ### Setup
+
+## Manually
 
 1. Clone the repository:
 
@@ -40,14 +42,13 @@ Ensure you have the following installed:
 3. Activate the virtual environment:
    - **Windows**:
 
-     ```sh
+     ```powershell
      venv\Scripts\activate
      ```
 
    - **Linux/macOS**:
 
      ```sh
-
      source venv/bin/activate
      ```
 
@@ -55,6 +56,14 @@ Ensure you have the following installed:
 
    ```sh
    pip install -r requirements.txt
+   ```
+
+## Automatically
+
+   You can run the setup_env.bat on windows and it will create the virtual envirement and install the requirements.
+
+   ```powershell
+   ./setup_env.bat
    ```
 
 ## Usage
