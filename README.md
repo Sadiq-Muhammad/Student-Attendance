@@ -85,8 +85,7 @@ Ensure you have the following installed:
 
 If you encounter a `FileNotFoundError` related to `libzbar-64.dll`:
 
-- Download `libzbar-64.dll` and `libiconv.dll`.
-- Place them in the `venv\Lib\site-packages\pyzbar\` directory.
+- Download [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170).
 
 ### Updating Dependencies
 
