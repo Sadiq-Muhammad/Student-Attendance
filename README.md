@@ -63,7 +63,7 @@ Ensure you have the following installed:
    You can run the setup_env.bat on windows and it will create the virtual envirement and install the requirements.
 
    ```powershell
-   ./setup_env.bat
+   .\setup_env.bat
    ```
 
 ## Usage
